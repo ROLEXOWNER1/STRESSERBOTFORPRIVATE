@@ -35,7 +35,7 @@ current_directory = os.getcwd()
 DEFAULT_BYTE_SIZE = 20
 DEFAULT_THREADS = 70
 DEFAULT_MAX_ATTACK_TIME = 240
-valid_ip_prefixes = ('52.', '20.', '14.', '4.', '13.')
+valid_ip_prefixes = ('52.', '20.', '14.', '4.', '13.','103.')
 
 # Adjust this to your local timezone, e.g., 'America/New_York' or 'Asia/Kolkata'
 LOCAL_TIMEZONE = pytz.timezone("Asia/Kolkata")
